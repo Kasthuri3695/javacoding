@@ -1,0 +1,32 @@
+package Tamilnadu.chennai;
+
+public class While {
+	public static void main(String[] args) {
+		int no=1;
+		while(no<=10)
+		{
+			System.out.print(no+"");
+			no=no+2;
+		}
+		
+		int no1=0;
+		while(no1<10)
+		{
+		System.out.print(no1+"");
+		no1=no1+2;
+	}
+		int no2 =3;
+		while(no2<=15)
+		{
+System.out.print(no2+"");
+no2=no2+3;
+		}
+    
+		int no3=25;
+		while(no3>=5)
+		{
+		System.out.print(no3+"");
+		no3=no3-5;
+		}	
+}
+}
