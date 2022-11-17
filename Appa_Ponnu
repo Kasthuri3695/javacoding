@@ -1,0 +1,19 @@
+package tamilnadu.chennai;
+
+public class Appa_Ponnu {
+
+	public static void main(String[] args) {
+		int box=0;
+		int day=1;
+		while(day<=10)
+		{
+			box=box+day;
+			day=day+1;
+			{
+			System.out.println(box);
+		}
+		}
+
+	}
+
+}
