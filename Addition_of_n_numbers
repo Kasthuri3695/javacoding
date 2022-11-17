@@ -1,0 +1,19 @@
+package tamilnadu.chennai;
+
+public class Addition_of_n_numbers {
+
+	public static void main(String[] args) {
+		int sum=0;
+		int no=1;
+		while(no<=50)
+		{
+			no=no+1;
+			sum=sum+no;
+		}
+		{
+			System.out.println(sum);
+		}
+
+	}
+
+}
