@@ -1,0 +1,23 @@
+package tamilnadu.chennai;
+
+public class Armstrong_Number {
+
+	public static void main(String[] args) {
+		int no=378;
+		int no2=no;
+		int rem=0;
+		double sumofcube=0;
+		while(no>0)
+		{
+			rem=no%10;
+			sumofcube+=Math.pow(rem, 3);
+			no=no/10;	
+		}
+		if(sumofcube==no2)
+			System.out.println(no2 + " "+ "is an Armstrong Number");
+		else
+			System.out.println(no2 + " "+ "is not a Armstrong Number");
+
+	}
+
+}
