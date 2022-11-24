@@ -1,0 +1,25 @@
+package tamilnadu.chennai;
+
+public class Printing_54321_Factorial {
+
+	public static void main(String[] args) {
+		int max=5;
+		while(max>=1)
+		{
+			int fact=1;
+			int no=1;
+			while(no<=max)
+			{
+				fact=fact*no;
+				no=no+1;
+			}
+			System.out.println(fact);
+			max=max-1;
+		}
+		
+		
+		
+		
+	}
+
+}
