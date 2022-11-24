@@ -1,0 +1,18 @@
+package tamilnadu.chennai;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		int max = 5;
+		int fact=1;
+		int no=1;
+		while(no<=max)
+		{
+			fact=fact*no;
+			no=no+1;
+		}
+		System.out.println("Factorial is" + " " + fact);
+
+	}
+
+}
