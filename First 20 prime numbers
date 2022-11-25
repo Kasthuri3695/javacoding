@@ -1,0 +1,29 @@
+package tamilnadu.chennai;
+
+public class First_20_Prime_Number {
+
+	public static void main(String[] args) {
+		int count=0;
+		int primecount=0;
+		int num=2;
+		int div=2;
+		while(primecount<20)
+		{
+		while(div<num)
+		{
+		if(num%div==0)
+		count++;
+		div++;
+		}
+		if(count==0)
+		{
+		primecount++;
+		num++;
+		}
+		if(primecount<20)
+			System.out.println(num);
+		}
+
+	}
+
+}
