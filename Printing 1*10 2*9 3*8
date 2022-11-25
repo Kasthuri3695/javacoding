@@ -1,0 +1,18 @@
+package tamilnadu.chennai;
+
+public class Printing_1_10_2_9_3_8_4_7 {
+
+	public static void main(String[] args) {
+		int no1=1;
+		int no2=10;
+		while(no1<=5)
+		{
+			System.out.print(no1 + "*" + no2 + " ");
+			no1=no1+1;
+			no2=no2-1;
+			
+		}
+
+	}
+
+}
