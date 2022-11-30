@@ -1,0 +1,18 @@
+package com.array.programs;
+
+public class Printing_Array {
+	
+	public static void main(String[] args) {
+	
+		Printing_Array pa = new Printing_Array();	
+		int[] ar = {10,20,30,40,50};
+		pa.print_array(ar);
+	}
+
+	private void print_array(int[] ar) {
+		for(int i=0; i<ar.length; i++)
+		{
+		System.out.print(ar[i]+" ");
+	}
+}
+}
