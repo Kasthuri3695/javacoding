@@ -1,0 +1,23 @@
+package com.array.programs;
+
+public class Total_and_Percentage {
+
+	public static void main(String[] args) {
+
+		Total_and_Percentage tp = new Total_and_Percentage();
+		int[] ar= {96,90,91,93,95};
+		tp.total(ar);
+
+}
+
+	private void total(int[] ar) {
+		int total=0;
+		for(int i=0; i<ar.length; i++)
+		{
+			total=total+ar[i];
+		}
+		System.out.println(total);
+		System.out.println(total/ar.length);
+		
+	}
+}
