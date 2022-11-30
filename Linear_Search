@@ -1,0 +1,26 @@
+package com.array.programs;
+
+public class Linear_Search {
+
+	public static void main(String[] args) {
+		Linear_Search ls = new Linear_Search();
+		int[] values = {10,20,30,40,50};
+		ls.Linear_Searching(values, 50);
+		
+	}
+
+
+	private void Linear_Searching(int[] values, int key) {
+		
+		for(int i=0; i<values.length; i++)
+		{
+			 if(values[i]==key)
+			 {
+			  System.out.println("Yes Present at index: "+ i);
+			  break; 
+			 }
+		
+		
+}
+	}
+}
