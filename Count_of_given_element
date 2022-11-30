@@ -1,0 +1,21 @@
+package com.array.programs;
+
+public class Count_of_given_element {
+
+	public static void main(String[] args) {
+		Count_of_given_element co = new Count_of_given_element();
+		int[] ar = {10,20,30,40,10,10,10};
+		co.count_of(ar, 10, 0);
+}
+
+	private void count_of(int[] ar, int key, int count) {
+		for(int i=0; i<ar.length; i++)
+		{
+		if(ar[i]==key)
+		{
+			count++;
+		}
+	}
+		System.out.println(count);
+}
+}
