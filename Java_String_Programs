@@ -1,0 +1,112 @@
+package string_learnings;
+
+import java.util.jar.Attributes.Name;
+
+public class All_String_Programs {
+
+	public static void main(String[] args) {
+		All_String_Programs all = new All_String_Programs();
+		//all.print_only_number("kas12345");
+		//all.print_only_letters("kasthuri89928");
+		//all.print_only_special("kas@#$%^1995");
+		//all.check_palindrome("appar");
+		//all.convert_string_to_char();	
+		//all.convert_string_to_integer("12345");
+		//all.sum_numbers("Kasthuri12345");
+		all.convert_char_to_string();
+		
+		
+	}
+
+	private void convert_char_to_string() {
+	char[] name = {'k','a','s','t','h','u','r','i'};
+	String s = new String(name);
+	System.out.println(s);
+		
+	}
+
+	private void sum_numbers(String name) {
+		int sum=0;
+		int digit=0;
+		int number=0;
+		for(int i=0; i<name.length(); i++)
+		{
+			if(name.charAt(i)>='0' && name.charAt(i)<='9')
+			{
+				char ch=name.charAt(i);
+				int no = Character.getNumericValue(ch);
+				System.out.print(no);	
+	}}
+		}
+
+	private void convert_string_to_integer(String string) {
+	int no = Integer.parseInt(string);
+	System.out.println(no);
+	}
+	
+
+	private void convert_string_to_char() {
+		String name="Kasthuri";
+		char[] ch = name.toCharArray();
+		
+	for(int i=0; i<ch.length; i++)
+	{
+		System.out.print(name.charAt(i));
+	}
+	}
+
+	private void check_palindrome(String string) {
+		String rev="";
+		for(int i=string.length()-1; i>=0; i--)
+		{
+			char ch=string.charAt(i);
+			rev=rev+ch;	
+		}
+		System.out.println(rev);
+		if(string.equals(rev))
+		{
+			System.out.println("It's a Palindrome");
+		}
+		else
+		{
+			System.out.println("It's not a Palindrome");
+		}
+	}
+
+	private void print_only_special(String name) {
+		for(int i=0; i<name.length(); i++)
+		{
+			if(name.charAt(i)>='a'&&name.charAt(i)<='z')
+			{}
+			else if(name.charAt(i)>='0'&&name.charAt(i)<='9')
+			{}
+			else
+		System.out.print(name.charAt(i)+" ");	
+		}
+	}
+
+	private void print_only_letters(String name) {
+		for(int i=0; i<name.length(); i++)
+		{
+		if(name.charAt(i)>='a'&&name.charAt(i)<='z')
+			System.out.print(name.charAt(i) +" ");
+		}
+		
+		System.out.println();
+	}
+
+	private void print_only_number(String name) {
+		int sum=0;
+		for(int i=0; i<name.length(); i++)
+		{
+			if(name.charAt(i)>='0'&&name.charAt(i)<='9')
+			{
+				sum=sum + (int) name.charAt(i);
+			}
+				System.out.print(name.charAt(i) +" ");
+		}
+		System.out.println(sum);
+			
+	}
+
+}
